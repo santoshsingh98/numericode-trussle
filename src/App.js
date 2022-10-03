@@ -1,15 +1,16 @@
 import "./styles.css";
+import Encoder from "./components/encoder.component";
+import Decoder from "./components/decoder.component";
 
 export default function App() {
   return (
     <div className="App light-font">
-      <div className="row ">
-        <div className="col-md-5 border-box m-auto">
-          <h2>Encoded</h2>
-        </div>
-        <div className="col-md-5 border-box m-auto">
-          <h2>Decoded</h2>
-        </div>
+        <h1>Numero code App</h1>
+        <hr/>
+      <div className="row mt-2">
+      
+      <Encoder/>
+      <Decoder/>
       </div>
     </div>
   );
