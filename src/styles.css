@@ -2,3 +2,25 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.m-auto{
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.col-md-5{
+  width : 40%;
+}
+
+.light-font{
+  font-weight: 200;
+}
+
+.border-box{
+  border : 1px solid;
+  border-radius: 10px;
+}

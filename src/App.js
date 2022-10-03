@@ -2,9 +2,15 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="App light-font">
+      <div className="row ">
+        <div className="col-md-5 border-box m-auto">
+          <h2>Encoded</h2>
+        </div>
+        <div className="col-md-5 border-box m-auto">
+          <h2>Decoded</h2>
+        </div>
+      </div>
     </div>
   );
 }
