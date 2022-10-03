@@ -2,3 +2,48 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.m-auto{
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.col-md-5{
+  width : 40%;
+}
+
+.light-font{
+  font-weight: 200;
+}
+
+.border-box{
+  border : 1px solid;
+  border-radius: 10px;
+}
+
+.mt-2{
+  margin-top: 2rem;
+}
+
+.height-100p {
+  height: 40%;
+  min-height: 40%;
+}
+
+.input-container{
+  width : 90%;
+  margin: auto;
+  font-size : 18px;
+}
+
+textarea {
+  resize: none;
+}
+
+.decoded-val{
+  background-color: rgb(235, 235, 235);
+}
